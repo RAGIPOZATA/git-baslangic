@@ -10,6 +10,7 @@ public class c02 {
         int sayi = scan.nextInt();
         int onlarBasamagi=sayi/10;
         int birlerBasamagi=sayi%10;
+        String str ="sayi ver";
 
         switch (onlarBasamagi) {
             case 1:
