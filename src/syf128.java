@@ -9,13 +9,13 @@ public class syf128 {
         System.out.println("lütfen bir cümle giriniz");
         String cumle= scan.nextLine();
 
-        String tersCumle=" ";
+        String tersCumle="";
 
-        for (int i = tersCumle.length()-1; i < 0; i--) {
-
-
-
+        for (int i = cumle.length()-1; i >= 0; i--) {
+            tersCumle+=cumle.substring(i,i+1);
+            
         }
+        System.out.println(tersCumle);
 
 
     }
